@@ -2,7 +2,7 @@ import { afterEach, describe, it, expect, vi } from 'vitest';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { render } from '@testing-library/react';
 
-const useHeroesMock = vi.fn((page: number) => ({
+const useHeroesMock = vi.fn((_page: number) => ({
   data: {
     results: [],
     next: null,
