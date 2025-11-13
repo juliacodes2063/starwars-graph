@@ -1,0 +1,43 @@
+.root {
+  min-width: 200px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--bg-items);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 45%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatarWrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 2px solid #fbbf24;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgb(250 204 21 / 12%);
+  border: 1px solid rgb(250 204 21 / 40%);
+}
