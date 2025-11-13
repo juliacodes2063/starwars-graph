@@ -34,7 +34,7 @@ jobs:
         run: npm run lint:styles
 
       - name: Run tests
-        run: npm run test -- --runInBand
+        run: npm run test 
 
       - name: Build project
         run: npm run build
